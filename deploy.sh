@@ -16,7 +16,7 @@ cd docs/.vuepress/dist/
 git init
 git add -A
 git commit -m 'deploy'
-git remote add origin git@github.com:zpj80231/znote.git
+git remote add origin git@github.com:q158467234/znote.git
 git checkout -b gh-pages
 
 # 如果发布到 https://<USERNAME>.github.io
@@ -28,7 +28,7 @@ cd ..
 #git init
 #git remote add origin git@github.com:zpj80231/znote.git
 git add .
-git commit -m 'update docs' 
+git commit -m 'update docs'
 git push origin master
 
 
